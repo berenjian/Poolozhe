@@ -38,6 +38,16 @@
         }
       }
     })
+
+    .state('home.idea-submission', {
+      url: '/submission',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/idea-submission.html',
+          controller: 'ideaSubmissionCtrl'
+        }
+      }
+    })
     ;
     $urlRouterProvider.otherwise('/home/ideas-list');
   })
