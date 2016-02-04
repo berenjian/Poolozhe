@@ -66,8 +66,17 @@
         }
       }
     })
-    ;
 
+    .state('home.contact',{
+      url: '/contact',
+      views:{
+        'menuContent':{
+          templateUrl: 'templates/contact.html',
+        }
+      }
+    })
+    ;
+    ;
     $urlRouterProvider.otherwise('/home/ideas-list');
   })
   ;
