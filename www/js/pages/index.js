@@ -3,7 +3,7 @@
 
   ng
   .module('poolozhe.pagesCtrl', [
-    'poolozhe.homeCtrl'
+    'poolozhe.ideasListCtrl'
   ]);
 
 })(angular);

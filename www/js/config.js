@@ -33,7 +33,8 @@
       url: '/list',
       views: {
         'menuContent': {
-          templateUrl: 'templates/ideas-list.html'
+          templateUrl: 'templates/ideas-list.html',
+          controller: 'ideasListCtrl'
         }
       }
     })

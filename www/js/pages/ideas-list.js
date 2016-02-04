@@ -1,6 +1,6 @@
 (function(ng){
   'use strict';
   ng
-  .module('poolozhe.homeCtrl', [])
+  .module('poolozhe.ideasListCtrl', [])
 
 })(angular)
