@@ -22,7 +22,20 @@
     .state('home',{
       url: '/home',
       abstract: true,
-      templateUrl: 'templates/menu.html'
+      view: {
+        'homeView': {
+          templateUrl: 'templates/menu.html'
+        }
+      }
+    })
+
+    .state('home.ilist', {
+      url: '/home/list/',
+      view: {
+        'menuContent': {
+          templateUrl: 'templates/ideas-list.html'
+        }
+      }
     })
     ;
     $urlRouterProvider.otherwise('/home/list');
