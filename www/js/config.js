@@ -1,7 +1,7 @@
 (function(ng){
   'use strict';
 
-  angular.module('poolozhe.config', ['ionic'])
+  angular.module('poolozhe.config', [])
 
   .run(['$ionicPlatform', ($ionicPlatform) => {
     $ionicPlatform.ready(function() {

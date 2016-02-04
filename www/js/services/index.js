@@ -3,7 +3,7 @@
 
   ng
   .module('poolozhe.services', [
-    'poolozhe.services.list'
+    'poolozhe.services.ideasList'
   ])
   ;
 

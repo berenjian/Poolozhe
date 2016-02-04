@@ -2,8 +2,8 @@
   'use strict';
 
   ng
-  .module('poolozhe.pagesCtrl', [
-    'poolozhe.ideasListCtrl'
+  .module('poolozhe.pages', [
+    'poolozhe.pages.ideasList'
   ]);
 
 })(angular);

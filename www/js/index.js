@@ -2,8 +2,10 @@
   'use strict';
 
   ng.module('poolozhe',[
+    'ionic',
+
     'poolozhe.config',
-    'poolozhe.pagesCtrl',
+    'poolozhe.pages',
     'poolozhe.services'
   ]);
 

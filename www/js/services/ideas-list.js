@@ -2,7 +2,7 @@
   'use strict';
 
   ng
-  .module('poolozhe.services.list', [])
+  .module('poolozhe.services.ideasList', [])
 
   .factory('ideasStorage', function(){
     var
