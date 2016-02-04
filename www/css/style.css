@@ -1,4 +1,8 @@
 /* Empty. Add your own CSS if you like */
+@font-face {font-family: 'yekanb';src: url('/css/fonts/BYekan/BYekan.eot') format('eot'),url('/css/fonts/BYekan/BYekan.woff') format('woff'),url('/css/fonts/BYekan/BYekan.ttf') format('truetype');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'yekan';src: url('/css/fonts/Yekan/Yekan.eot') format('eot'),url('/css/fonts/Yekan/Yekan.woff') format('woff'),url('/css/fonts/Yekan/Yekan.ttf') format('truetype');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'BBCNassim';src: url('./css/fonts/BBCNassim/BBCNassim-webfont.eot') format('eot'),url('./css/fonts/BBCNassim/BBCNassim-webfont.woff') format('woff'),url('./css/fonts/BBCNassim/BBCNassim-webfont.ttf') format('truetype'),url('./css/fonts/BBCNassim/BBCNassim-webfont.svg') format('svg');font-weight: normal;font-style: normal;}
+
 .input-label {
   float: right;
   margin-right: 25px;
@@ -7,3 +11,8 @@
 .right {
   float: right;
 }
+
+*{
+  font-family: 'yekanb';
+}
+
