@@ -29,8 +29,8 @@
       }
     })
 
-    .state('home.list', {
-      url: '/list',
+    .state('home.ideas-list', {
+      url: '/ideas-list',
       views: {
         'menuContent': {
           templateUrl: 'templates/ideas-list.html',
@@ -39,7 +39,7 @@
       }
     })
     ;
-    $urlRouterProvider.otherwise('/home/list');
+    $urlRouterProvider.otherwise('/home/ideas-list');
   })
   ;
 

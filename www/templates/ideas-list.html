@@ -1,8 +1,8 @@
 <ion-view view-title="Poolozhe">
   <ion-content>
     <ion-list>
-      <ion-item>
-
+      <ion-item ng-repeat="n in ideasList">
+        {{n.id}} {{n.name}}
       </ion-item>
     </ion-list>
   </ion-content>
