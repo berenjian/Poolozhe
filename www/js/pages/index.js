@@ -3,7 +3,8 @@
 
   ng
   .module('poolozhe.pages', [
-    'poolozhe.pages.ideasList'
+    'poolozhe.pages.ideasList',
+    'poolozhe.pages.ideaSubmission'
   ]);
 
 })(angular);

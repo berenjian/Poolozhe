@@ -39,6 +39,25 @@
       }
     })
 
+    .state('home.idea-submission', {
+      url: '/submission',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/idea-submission.html',
+          controller: 'ideaSubmissionCtrl'
+        }
+      }
+    })
+
+    .state('home.idea-submission-step2', {
+      url: '/submission-step2',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/idea-submission-step2.html'
+        }
+      }
+    })
+
     .state('home.about',{
       url: '/about',
       views:{

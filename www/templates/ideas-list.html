@@ -1,17 +1,19 @@
 <ion-view view-title="Poolozhe">
   <ion-content>
     <ion-list class="list card">
-      <ion-item ng-repeat="n in ideasList">
-        <div class="item item-avatar">
-          <img  ng-src="img/{{n.thumb}}">
-          <h2 style="float:left;padding-top:9px;">{{n.date}}</h2>
-          <h2 style="float:right;padding-top:9px;">{{n.name}}</h2>
-        </div>
-        <div class="item item-body">
-          <img class="full-image" ng-src="img/{{n.thumb}}">
-          <br />
-          <p style="text-align:right;direction:rtl;">{{n.short_desc}}</p>
-        </div>
+      <ion-item collection-repeat="n in ideasList">
+        <a href="#" class="item">
+          <div class="item item-avatar">
+            <img  ng-src="img/{{n.thumb}}">
+            <h2 style="float:left;padding-top:9px;">{{n.date}}</h2>
+            <h2 style="float:right;padding-top:9px;">{{n.name}}</h2>
+          </div>
+          <div class="item item-body">
+            <img class="full-image" ng-src="img/{{n.thumb}}">
+            <br />
+            <p style="text-align:right;direction:rtl;">{{n.short_desc}}</p>
+          </div>
+        </a>
 
       </ion-item>
     </ion-list>
