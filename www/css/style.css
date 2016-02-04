@@ -23,3 +23,7 @@ h1.title-left{
 h2.ng-binding{
   font-family: 'yekanb';
 }
+
+.date-view {
+  font-family: initial !important;
+}

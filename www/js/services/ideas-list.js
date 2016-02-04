@@ -16,7 +16,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb1.jpg',
             'image'      : 'image1.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 11,
             'name' : 'علی',
@@ -26,7 +26,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb3.jpg',
             'image'      : 'image3.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 12,
             'name' : 'سعید',
@@ -36,7 +36,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb2.jpg',
             'image'      : 'image2.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 11,
             'name' : 'مهدی',
@@ -46,7 +46,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb4.jpg',
             'image'      : 'image4.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 13,
             'name' : 'امیر',
@@ -56,7 +56,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb5.jpg',
             'image'      : 'image5.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 14,
             'name' : 'سلمان',
@@ -66,7 +66,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb1.jpg',
             'image'      : 'image1.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 15,
             'name' : 'سهیل',
@@ -76,7 +76,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb2.jpg',
             'image'      : 'image2.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 16,
             'name' : 'وحید',
@@ -86,7 +86,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb4.jpg',
             'image'      : 'image4.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 17,
             'name' : 'حسن',
@@ -96,7 +96,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb3.jpg',
             'image'      : 'image3.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 18,
             'name' : 'امید',
@@ -106,7 +106,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb1.jpg',
             'image'      : 'image1.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 19,
             'name' : 'امیررضا',
@@ -116,7 +116,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb5.jpg',
             'image'      : 'image5.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 20,
             'name' : 'علیرضا',
@@ -126,7 +126,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb1.jpg',
             'image'      : 'image1.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 21,
             'name' : 'صابر',
@@ -136,7 +136,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb1.jpg',
             'image'      : 'image1.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 22,
             'name' : 'صدرا',
@@ -146,7 +146,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb1.jpg',
             'image'      : 'image1.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 23,
             'name' : 'مرتضی',
@@ -156,7 +156,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb1.jpg',
             'image'      : 'image1.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 24,
             'name' : 'مصطفی',
@@ -166,7 +166,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb2.jpg',
             'image'      : 'image2.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           },{
             'id' : 25,
             'name' : 'هادی',
@@ -176,7 +176,7 @@
             'price'      : '5000',
             'thumb'      : 'thumb3.jpg',
             'image'      : 'image3.jpg',
-            'date'       : '1روز'
+            'date'       : '1d'
           }
 
       ];
