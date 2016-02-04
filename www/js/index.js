@@ -3,7 +3,8 @@
 
   ng.module('poolozhe',[
     'poolozhe.config',
-    'poolozhe.pagesCtrl'
+    'poolozhe.pagesCtrl',
+    'poolozhe.services'
   ]);
 
 })(angular);
