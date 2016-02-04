@@ -48,6 +48,15 @@
         }
       }
     })
+
+    .state('home.idea-submission-step2', {
+      url: '/submission-step2',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/idea-submission-step2.html'
+        }
+      }
+    })
     ;
     $urlRouterProvider.otherwise('/home/ideas-list');
   })
