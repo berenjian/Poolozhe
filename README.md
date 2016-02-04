@@ -1,15 +1,11 @@
 # Poolozhe Application 
 An Application which connects persons who have ideas to persons who have money.
 
-## Technologies We Use
-* [HTML5](http://ali.md/wiki/html5)
-* [CSS3](http://ali.md/css3ref)
-* [JavaScript](http://ali.md/wiki/javascript)
-* All other web technology, in fact there is no limitation in 1tuts.
-
-## A 1Devs Tutorial
-Part of 1Schools (1Devs Education Department).  
-Produced by <b>The<i>One</i>Developers</b>.  
+## Members
+* [Hossein Behkamal:Developer](http://github.com/hoseinbl)
+* [Amirmahdi Berenjian:Developer](http://github.com/berenjian)
+* [Mohammad Najafzadeh:Developer](http://github.com/mohammadn)
+* [Ali Ramezani:Graphist](http://github.com/alirni)
 
 
 ## License
