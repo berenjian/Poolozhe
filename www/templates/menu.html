@@ -14,16 +14,24 @@
 
   <ion-side-menu side="right">
     <ion-header-bar class="bar-positive">
-      <h1 class="title">منو بار</h1>
+      <h1 class="title">داشبورد</h1>
     </ion-header-bar>
     <ion-content>
-      <ion-list class="text-right">
-        <ion-item menu-close href="#/home/ideas-list">
-          خانه
+      <ion-list>
+        <ion-item menu-close href="#/home/ideas-list" style="text-align:right">
+          صفحه اصلی
         </ion-item>
-        <ion-item menu-close href="#/home/submission">
+        <ion-item menu-close href="#/home" style="text-align:right">
           ثبت ایده
         </ion-item>
+        <ion-item menu-close href="#/home/about" style="text-align:right">
+          درباره ما
+        </ion-item>
+        <ion-item menu-close href="#/home" style="text-align:right">
+          تماس با ما
+        </ion-item>
+        <a style="display:block" class="button icon-right ion-ios-unlocked-outline button-calm">ورود</a>
+        <a style="display:block;margin-top:5px" class="button icon-right ion-android-person-add button-balanced">عضویت</a>
       </ion-list>
     </ion-content>
   </ion-side-menu>

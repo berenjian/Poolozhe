@@ -57,7 +57,17 @@
         }
       }
     })
+
+    .state('home.about',{
+      url: '/about',
+      views:{
+        'menuContent':{
+          templateUrl: 'templates/about.html',
+        }
+      }
+    })
     ;
+
     $urlRouterProvider.otherwise('/home/ideas-list');
   })
   ;
