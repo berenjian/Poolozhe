@@ -5,7 +5,7 @@ An Application which connects persons who have ideas to persons who have money.
 * [Hossein Behkamal:Developer](http://github.com/hoseinbl)
 * [Amirmahdi Berenjian:Developer](http://github.com/berenjian)
 * [Mohammad Najafzadeh:Developer](http://github.com/mohammadn)
-* [Hossein Behkamal:Graohist](http://github.com/alirni)
+* [Hossein Behkamal:Graphist](http://github.com/alirni)
 
 
 ## License
