@@ -7,6 +7,13 @@
     ng.
     extend($scope, {
       ideasList : ideasStorage.getIdeasList()
+    });
+  }])
+
+  .controller('single-idea', ['$scope', 'ideasStorage', function ($scope, ideasStorage){
+    ng.
+    extend($scope, {
+      ideasList : ideasStorage.getIdeasList()
 
     });
   }])
