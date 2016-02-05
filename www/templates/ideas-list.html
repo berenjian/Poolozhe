@@ -1,7 +1,13 @@
 <ion-view view-title="پولوژه">
   <ion-content>
+  <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input ng-model="filter.category" type="text" class="text-right" dir="rtl" placeholder="جستجو ...">
+      </label>
+    </div>
     <ion-list class="list card">
-      <ion-item ng-repeat="n in ideasList">
+      <ion-item ng-repeat="n in ideasList|filter:filter">
           <a style="text-decoration: none;" href="#/home/ideas-list/{{n.id}}">
             <div class="item item-avatar">
               <img  ng-src="img/{{n.thumb}}">
@@ -11,6 +17,8 @@
             <div class="item item-body">
               <img class="full-image" ng-src="img/{{n.thumb}}">
               <br />
+              <h2 class="text-right">نام ایده: {{n.iname}}</h2>
+              <h2 class="text-right">دسته بنید: {{n.category}}</h2>
               <p style="text-align:right;direction:rtl;">{{n.short_desc}}</p>
             </div>
           </a>
