@@ -4014,8 +4014,11 @@ a.subdued {
     font-size: 17px;
     font-weight: 500;
     line-height: 44px; }
-    .bar .title.title-left {
-      text-align: left; }
+    /*.bar .title.title-left {
+      text-align: left; }*/
+      .bar .title.title-left {
+      text-align: center;
+      right: 0 !important; }
     .bar .title.title-right {
       text-align: right; }
   .bar .title a {
