@@ -33,5 +33,32 @@
       "type": "image/png"
     }
   ],
+  "splashes": [
+    {
+      "src": "../resources/android/splash/drawable-land-ldpi-screen.png",
+      "sizes": "320x240",
+      "type": "image/png"
+    },
+    {
+      "src": "../resources/android/splash/drawable-land-mdpi-screen.png",
+      "sizes": "480x320",
+      "type": "image/png"
+    },
+    {
+      "src": "../resources/android/splash/drawable-port-hdpi-screen.png",
+      "sizes": "480x800",
+      "type": "image/png"
+    },
+    {
+      "src": "../resources/android/splash/drawable-port-ldpi-screen.png",
+      "sizes": "240x320",
+      "type": "image/png"
+    },
+    {
+      "src": "../resources/android/splash/drawable-port-mdpi-screen.png",
+      "sizes": "320x480",
+      "type": "image/png"
+    }
+  ],
   "display": "standalone"
 }
