@@ -2,7 +2,7 @@
   <ion-content>
     <ion-list class="list card">
       <ion-item ng-repeat="n in ideasList">
-          <a href="#/home/ideas/{{n.id}}">
+          <a href="#/home/ideas-list/{{n.id}}">
             <div class="item item-avatar">
               <img  ng-src="img/{{n.thumb}}">
               <h2 style="float:left;padding-top:9px;" class="date-view">{{n.date}}</h2>
@@ -11,7 +11,7 @@
             <div class="item item-body">
               <img class="full-image" ng-src="img/{{n.thumb}}">
               <br />
-              <p style="text-align:right;direction:rtl;">{{n.short_desc}}</p>
+              <p style="text-align:right;direction:rtl;text-decoration: none;">{{n.short_desc}}</p>
             </div>
           </a>
 
