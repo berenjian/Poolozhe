@@ -33,7 +33,7 @@
       "type": "image/png"
     }
   ],
-  "splashes": [
+  "splash_screens": [
     {
       "src": "../resources/android/splash/drawable-land-ldpi-screen.png",
       "sizes": "320x240",
