@@ -75,7 +75,17 @@
         }
       }
     })
-    ;
+
+    .state('home.single',{
+      url: '/ideas-list/:id',
+      views:{
+        'menuContent':{
+          templateUrl: 'templates/single.html',
+          controller: 'singleIdeaCtrl'
+        }
+      }
+    })
+
     ;
     $urlRouterProvider.otherwise('/home/ideas-list');
   })
